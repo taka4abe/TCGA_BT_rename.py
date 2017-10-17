@@ -50,7 +50,6 @@ for PtIDs in os.listdir('.'):
                         pass
                     save_name = (PtIDs[5:12] + "/" + sequence_name + "/"
                                 + sequence_name + "_" + file_name[3:])
-                    print(save_name)
                     save_name = (root_path + "/new_dir/" + save_name)
                     shutil.copy(file_name, save_name)
                     n += 1
