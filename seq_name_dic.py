@@ -1,3 +1,6 @@
+# https://wiki.cancerimagingarchive.net/display/Public/TCGA-HGG
+# https://wiki.cancerimagingarchive.net/display/Public/TCGA-LGG
+
 # HGGdic doesn't have all HGG seq name, need help of LGGdic.
 ### LGG only: 506 different name, GBM: 793 different name
 ### LGG + GBM 1187 different name: (506 + 793)- 1187 = 112 overlap
