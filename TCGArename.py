@@ -55,7 +55,7 @@ for PtIDs in os.listdir('.'):
                     n += 1
                     if scipy.sqrt(n/10) == int(scipy.sqrt(n/10)):
                         elapsed_time = time.time() - start
-                        print("{0} / {1} cases copied,  elapsed time: {2:2.02f} sec".format(n, total, elapsed_time))
+                        print("{0}/{1}, {2:2.02f}% of cases copied,  elapsed time: {3:2.02f} sec".format(n, total, (n/total)*100, elapsed_time))
                         print("{0:2.02f} sec to finish copying".format(((elapsed_time/n)*total)-elapsed_time))
                         print(' ')
             except:
