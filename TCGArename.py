@@ -79,8 +79,8 @@ for PtIDs in os.listdir('.'):
     est_time = ((elapsed_time/n)*total)
     process_speed = n/elapsed_time
     print('')
-    print('  ID:', PtIDs, 'renamed')
-    print("{0}/{1} renamed, {2:1.0f} files/sec, elapsed/est: {3:2.0f}/{4:2.0f} sec".format(n, total, process_speed, elapsed_time, est_time))
+    print('  ID: {0} renamed, {1:1.0f} files/sec'.format(PtIDs, process_speed))
+    print("{0}/{1} renamed, elapsed/est_total: {2:2.0f}/{3:2.0f} sec".format(n, total, elapsed_time, est_time))
     os.chdir('..')
 
 print("couldn't find dicom files in {0:02.2f}% of dirs".format((no_file / total)*100))
