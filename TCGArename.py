@@ -85,5 +85,5 @@ for PtIDs in os.listdir('.'):
 
 print("couldn't find dicom files in {0:02.2f}% of dirs".format((no_file / total)*100))
 print(no_file_list, "don't have any dcm file")
-print("no InstanceNumber in" no_InstanceNo, "dcm files, dcm file order could be distorted.")
+print("no InstanceNumber in", no_InstanceNo, "dcm files, dcm file order could be distorted.")
 print("finished")
