@@ -1,4 +1,4 @@
-# this is the last version of dicomdict after TCGA reDL
+# this is the last version of dicomdict after TCGA-GBM and TCGA-LGG reDL
 
 BTdict = {
     't1_tir_cor'        : 'T1cor'     ,
