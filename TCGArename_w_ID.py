@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import argparse, os, dicom, shutil, time, dicomrename
+import argparse, os, dicom, shutil, time, dicomname
 parser = argparse.ArgumentParser(description='''This code modifies and
     organizes the name of the directory tree which contains dcm files.
     To use this code, please save the file named "ser_description_dict"
