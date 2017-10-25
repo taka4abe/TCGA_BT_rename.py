@@ -66,7 +66,7 @@ for PtIDs in os.listdir('.'):
                         else:
                             pass
                     dsNo = "{0:04}".format(dsNo)
-                    save_name = (save_path + "/" + sequence_name + "_" + dsNo + ".dcm")
+                    save_name = (save_path + "/" + PtIDs[5:12] + "_" + sequence_name + "_" + dsNo + ".dcm")
                     shutil.copy(file_name, save_name)
                     n += 1
             except:
